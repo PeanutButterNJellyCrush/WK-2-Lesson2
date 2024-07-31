@@ -1,0 +1,23 @@
+.flex-parent {
+    border: 1px solid red;
+    height: 90vh; 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+  /* align items along cross axis */
+    align-items: center;
+    /*cross axis*/
+}
+
+.flex-child {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin: 10px;
+    font-size: 49;
+}
+.item-1 {
+  flex-basis: 120px;
+}
