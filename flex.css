@@ -1,23 +1,28 @@
+.flex-child:nth-child(1){
+  order: 1;
+}
+
 .flex-parent {
-    border: 1px solid red;
+    border: 1px solid rgb(93, 75, 195);
     height: 90vh; 
     display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-    justify-content: start;
-  /* align items along cross axis */
-    align-items: center;
-    /*cross axis*/
+    list-style: none;
+    background-color: aliceblue;
+    min height: 50%;
 }
 
 .flex-child {
     height: 80px;
     width: 80px;
-    background-color: red;
-    margin: 10px;
-    font-size: 49;
+    background-color: rgb(13, 93, 37);
+    padding: 4px;
+    margin: 8px;
+    font-size: 49; 
+    flex: 1 1 auto;
+    min-height: 100px;
 }
-.item-1 {
-  flex-basis: 120px;
+.flex-child item-1 {
+  align-self: stretch;
 }
+
+

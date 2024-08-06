@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+    border: 1px solid red;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    background-color: #e8e8e9;
+}
+
+li{
+    width: 100px;
+    background-color: #8cacea;
+    margin: 8px;
+    filter: drop-shadow(10px 10px);

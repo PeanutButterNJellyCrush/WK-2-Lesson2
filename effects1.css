@@ -1,0 +1,49 @@
+.first {
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+.first:hover {
+    transform: scale(2) translate(50px,50px) rotate(45deg);
+    width: 400px;
+}
+
+.card-parent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid red;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+img {
+    width: 300px;
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ;
+    animation-duration:2s;
+    animation 
+}
+
+
+@keyframes change-width {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 100%;
+        }
+    }
